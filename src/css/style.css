@@ -4,10 +4,18 @@ h1{
     font-size: 80px;
 }
 
-h2{
-    color: lightblue;
+#primer-titulo{
+    color: #1cb0f6;
 }
 
-p{
-    color: green;
+#primer-parrafo{
+    color: #58CC07;
+}
+
+.titulo{
+    color:#ffc800;
+}
+
+.parrafo{
+    color:#a56644;
 }
