@@ -1,0 +1,26 @@
+#Titulo-Colombia{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 80px;
+    color:#4b4b4b
+}
+
+.titulos{
+    color:#777777;
+}
+
+.parrafo-coro{
+    color: #16ecd0;
+}
+
+.estrofa-amarillo{
+    color:rgba(255, 238, 0, 0.76);
+}
+
+.estrofa-azul{
+    color: blue;;
+}
+
+.estrofa-rojo{
+    color: red;
+}
