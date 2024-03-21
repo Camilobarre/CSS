@@ -1,0 +1,62 @@
+#parrafo-de-prueba{
+    background: black;
+    color: white;
+    border: 2px solid red;
+    /* border-top-width: 50px;
+    border-right-width: 40px;
+    border-bottom-width: 30px;
+    border-left-width: 20px; */
+    border-width: 50px 40px 30px 20px;
+}
+
+p.dotted {
+    border-style: dotted;
+}
+
+p.dashed {
+    border-style: dashed;
+}
+
+p.solid {
+    border-style: solid;
+}
+
+p.double {
+    border-style: double;
+}
+
+p.groove {
+    border-style: groove;
+}
+
+p.ridge {
+    border-style: ridge;
+}
+
+p.inset {
+    border-style: inset;
+}
+
+p.outset {
+    border-style: outset;
+}
+
+p.none {
+    border-style: none;
+}
+
+p.hidden {
+    border-style: hidden;
+}
+
+p.mix {
+    border-style: dotted dashed solid double;
+}
+
+header{
+    border: 20px dotted blue;
+    border-top-width: 50px;
+    border-right-width: 40px;
+    border-bottom-width: 30px;
+    border-left-width: 20px;
+}
