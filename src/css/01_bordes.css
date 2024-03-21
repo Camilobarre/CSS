@@ -1,12 +1,13 @@
 #parrafo-de-prueba{
     background: black;
     color: white;
-    border: 2px solid red;
+    border: 20px solid red;
     /* border-top-width: 50px;
     border-right-width: 40px;
     border-bottom-width: 30px;
-    border-left-width: 20px; */
-    border-width: 50px 40px 30px 20px;
+    border-left-width: 20px; 
+    border-width: 50px 40px 30px 20px;*/
+    border-radius: 20px;
 }
 
 p.dotted {
@@ -59,4 +60,60 @@ header{
     border-right-width: 40px;
     border-bottom-width: 30px;
     border-left-width: 20px;
+}
+
+/* La propiedad border-width con tamaño especifico*/
+p.uno {
+    border-style: solid;
+    border-width: 5px 20px;
+    /* 5px top and bottom, 20px on the sides */
+}
+
+p.dos {
+    border-style: solid;
+    border-width: 20px 5px;
+    /* 20px top and bottom, 5px on the sides */
+}
+
+p.tres {
+    border-style: solid;
+    border-width: 25px 10px 4px 35px;
+    /* 25px top, 10px right, 4px bottom and 35px left */
+}
+
+img.Perro{
+    width: 200px;
+    padding: 4px;
+    border: dashed green;
+    border-width: 10px 8px 6px 4px;
+}
+
+img.Gato{
+    width: 200px;
+    padding: 4px;
+    border-top: 20px ridge blue;
+    border-right: 5px dotted pink;
+    border-bottom: 10px groove seagreen;
+    border-left: 50px double crimson;
+}
+
+img.Ave{
+    width: 200px;
+    padding: 4px;
+    border: groove yellow;
+    border-width: 2px 4px 6px 8px;
+}
+
+img.Caballo{
+    width: 200px;
+    padding: 4px;
+    border: dotted orangered;
+    border-width: 4px 5px 6px 7px;
+}
+
+img.Leon{
+    width: 200px;
+    padding: 4px;
+    border: double chocolate;
+    border-width: 4px 8px 12px 16px;
 }
